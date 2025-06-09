@@ -1,11 +1,29 @@
-# ChessBuddy-AI
+# ♟️ Chess AI with Stockfish Integration
 
-A fun offline chess assistant that helps suggest the best moves using Stockfish.
+A simple chess interface powered by the legendary Stockfish engine. This project uses Python to allow human vs AI games with real-time evaluation and move decisions.
 
-## Setup Instructions
-1. Install Python 3.x
-2. Install required packages: `pip install -r requirements.txt`
-3. Download and install Stockfish engine
-4. Run the script: `python src/main.py`
+---
 
-**Note:** For educational and non-competitive use only.
+## 🚀 Features
+
+- Play chess against Stockfish engine
+- Real-time move suggestions from Stockfish
+- Command-line based interface
+- Easy plug-and-play setup
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python
+- **Engine:** [Stockfish](https://stockfishchess.org/download/)
+- **Library:** `stockfish` Python wrapper
+
+---
+
+## 📦 Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
